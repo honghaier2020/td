@@ -1,8 +1,8 @@
-#include "soldiers.h"
+#include "ui_scene.h"
 
 namespace dt
 {
-	bool soldiers::init()
+	bool ui_scene::init()
 	{
 		if(Layer::init())
 		{
@@ -11,12 +11,12 @@ namespace dt
 		return false;
 	}
 
-	soldiers::soldiers()
+	ui_scene::ui_scene()
 	{
-		
+
 	}
 
-	soldiers::~soldiers()
+	ui_scene::~ui_scene()
 	{
 
 	}
