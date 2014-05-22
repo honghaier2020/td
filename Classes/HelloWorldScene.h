@@ -2,6 +2,9 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+#include "extensions/cocos-ext.h"
+#include "ui/CocosGUI.h"
+#include "cocostudio/CocoStudio.h"
 
 class HelloWorld : public cocos2d::Layer
 {
@@ -17,6 +20,8 @@ public:
     
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
+private:
+	cocos2d::ui::Layout*		layout_;
 };
 
 #endif // __HELLOWORLD_SCENE_H__

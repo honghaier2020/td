@@ -24,13 +24,13 @@
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\ui\soldiers.cpp">
+    <ClCompile Include="..\src\ui\ui_scene.cpp">
       <Filter>ui</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\ui\soldier_bar.cpp">
+    <ClCompile Include="..\src\ui\ui_soldier_bar.cpp">
       <Filter>ui</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\ui\scene.cpp">
+    <ClCompile Include="..\src\ui\ui_soldiers.cpp">
       <Filter>ui</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,13 +44,13 @@
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\ui\soldiers.h">
+    <ClInclude Include="..\src\ui\ui_scene.h">
       <Filter>ui</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\ui\soldier_bar.h">
+    <ClInclude Include="..\src\ui\ui_soldier_bar.h">
       <Filter>ui</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\ui\scene.h">
+    <ClInclude Include="..\src\ui\ui_soldiers.h">
       <Filter>ui</Filter>
     </ClInclude>
   </ItemGroup>
