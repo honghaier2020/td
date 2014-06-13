@@ -27,23 +27,14 @@ bool HelloWorld::init()
     {
         return false;
     }
-<<<<<<< HEAD
     
 	layout_ = static_cast<Layout*>(cocostudio::GUIReader::getInstance()->widgetFromJsonFile("./charactor_choose_1/charactor_choose_1.ExportJson"));
     this->addChild(layout_);
-
-=======
-    if(1)
-	{
-		layout_ = static_cast<Layout*>(cocostudio::GUIReader::getInstance()->widgetFromJsonFile("./NewUi4_1/NewUi4_1.ExportJson"));
-		this->addChild(layout_);
-	}
 
 	std::string file = "map_demo.tmx"; 
 	_tileMap = CCTMXTiledMap::create(file);   
 	_background = _tileMap->layerNamed("background");         
 	addChild(_tileMap, -1); 
->>>>>>> e44f7ee245a2db2933c6c8b2a1d106a4b7fc9e58
     return true;
 }
 
