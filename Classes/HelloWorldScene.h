@@ -22,6 +22,10 @@ public:
     CREATE_FUNC(HelloWorld);
 private:
 	cocos2d::ui::Layout*		layout_;
+
+	//	test load title map file
+	cocos2d::TMXTiledMap* _tileMap;  
+	cocos2d::TMXLayer* _background; 
 };
 
 #endif // __HELLOWORLD_SCENE_H__
