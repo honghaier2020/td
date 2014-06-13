@@ -28,7 +28,7 @@ bool HelloWorld::init()
         return false;
     }
     
-	layout_ = static_cast<Layout*>(cocostudio::GUIReader::getInstance()->widgetFromJsonFile("./UILayout_Color_Editor/ui_layout_color_editor_1.json"));
+	layout_ = static_cast<Layout*>(cocostudio::GUIReader::getInstance()->widgetFromJsonFile("./charactor_choose_1/charactor_choose_1.ExportJson"));
     this->addChild(layout_);
 
     return true;
