@@ -27,11 +27,9 @@ bool HelloWorld::init()
     {
         return false;
     }
-    if(1)
-	{
-		layout_ = static_cast<Layout*>(cocostudio::GUIReader::getInstance()->widgetFromJsonFile("./NewUi4_1/NewUi4_1.ExportJson"));
-		this->addChild(layout_);
-	}
+    
+	layout_ = static_cast<Layout*>(cocostudio::GUIReader::getInstance()->widgetFromJsonFile("./charactor_choose_1/charactor_choose_1.ExportJson"));
+    this->addChild(layout_);
 
 	std::string file = "map_demo.tmx"; 
 	_tileMap = CCTMXTiledMap::create(file);   
